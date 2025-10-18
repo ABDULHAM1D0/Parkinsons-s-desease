@@ -48,45 +48,32 @@ The following models were trained and evaluated:
 | AdaBoost            | 0.9241     | 0.9370     | 0.9418     | 0.8945      | 0.9394     | 0.9573     | 0.9685     |
 
 
-✅ Best Model: CatBoost (Highest overall AUC and PR AUC)
+## ✅ Best Model: CatBoost (Highest overall AUC and PR AUC)
 
-🧩 Steps in the Notebook
+### 🧩 Steps in the Notebook
+- Data Loading & Cleaning
+- Checked missing values, duplicates, and outliers.
+- Exploratory Data Analysis (EDA)
+- Distribution plots, correlation heatmaps, and voice frequency analysis.
 
-Data Loading & Cleaning
+### Feature Engineering
+- Feature scaling (StandardScaler), transformation (PowerTransformer), and selection.
 
-Checked missing values, duplicates, and outliers.
+### Model Training & Comparison
+- Trained multiple ML models with default and tuned hyperparameters.
 
-Exploratory Data Analysis (EDA)
+### Evaluation
+- Accuracy, precision, recall, F1, ROC-AUC, PR-AUC, confusion matrices.
 
-Distribution plots, correlation heatmaps, and voice frequency analysis.
+### Feature Importance
+- Analyzed top predictive voice parameters.
 
-Feature Engineering
-
-Feature scaling (StandardScaler), transformation (PowerTransformer), and selection.
-
-Model Training & Comparison
-
-Trained multiple ML models with default and tuned hyperparameters.
-
-Evaluation
-
-Accuracy, precision, recall, F1, ROC-AUC, PR-AUC, confusion matrices.
-
-Feature Importance
-
-Analyzed top predictive voice parameters.
-
-📈 Results Summary
-
-CatBoost, XGBoost, and AdaBoost outperformed other models.
-
-CatBoost achieved:
-
-Accuracy: 92.7%
-
-ROC AUC: 0.9667
-
-PR AUC: 0.9724
+## 📈 Results Summary
+- CatBoost, XGBoost, and AdaBoost outperformed other models.
+### CatBoost achieved:
+- Accuracy: 92.7%
+- ROC AUC: 0.9667
+- PR AUC: 0.9724
 
 Models performed significantly better after preprocessing and feature transformation.
 
