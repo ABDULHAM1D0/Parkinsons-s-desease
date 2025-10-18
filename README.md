@@ -15,17 +15,22 @@ Using a dataset from Kaggle – Parkinson’s Disease Dataset, several machine l
 - Description: The dataset contains various biomedical voice measurements from individuals, some diagnosed with Parkinson’s disease and others not.
 - Target Variable: status (1 = Parkinson’s, 0 = Healthy)
 
-⚙️ Tools & Libraries
+## ⚙️ Tools & Libraries
 
 This project was implemented in Python using Google Colab.
 Key libraries include:
 
-numpy, pandas, matplotlib, seaborn, scipy
-sklearn (scikit-learn)
-catboost
-xgboost
+```bash
+numpy,
+pandas,
+matplotlib,
+seaborn,
+scipy sklearn (scikit-learn),
+catboost,
+xgboost,
+```
 
-🔍 Machine Learning Models
+## 🔍 Machine Learning Models
 
 The following models were trained and evaluated:
 | Model               | Accuracy   | Precision  | Recall     | Specificity | F1         | ROC AUC    | PR AUC     |
