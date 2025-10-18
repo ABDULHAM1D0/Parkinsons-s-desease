@@ -11,7 +11,7 @@ Using a dataset from Kaggle – Parkinson’s Disease Dataset, several machine l
 - Evaluate performance using various metrics such as accuracy, F1-score, ROC-AUC, and PR-AUC.
 
 ## 🧾 Dataset
-- Source: Kaggle — (https://www.kaggle.com/datasets/rabieelkharoua/parkinsons-disease-dataset-analysis/data)
+- Source: [Kaggle - Parkinson’s Disease Dataset](https://www.kaggle.com/datasets/rabieelkharoua/parkinsons-disease-dataset-analysis/data)
 - Description: The dataset contains various biomedical voice measurements from individuals, some diagnosed with Parkinson’s disease and others not.
 - Target Variable: status (1 = Parkinson’s, 0 = Healthy)
 
