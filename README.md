@@ -74,43 +74,9 @@ The following models were trained and evaluated:
 - Accuracy: 92.7%
 - ROC AUC: 0.9667
 - PR AUC: 0.9724
-
 Models performed significantly better after preprocessing and feature transformation.
 
-💡 Insights
-
-Voice-based features (e.g., jitter, shimmer, MDVP) showed strong correlation with Parkinson’s presence.
-
-Ensemble models generalized better than linear classifiers.
-
-Proper scaling and transformation (PowerTransformer) improved model performance.
-
-🧠 Future Work
-
-Integrate deep learning models (e.g., LSTM for voice sequence analysis).
-
-Collect larger datasets for more robust generalization.
-
-Deploy model as a web app using Streamlit or Flask.
-
-📎 How to Run
-
-Clone this repository
-
-git clone https://github.com/yourusername/parkinsons-disease-prediction.git
-cd parkinsons-disease-prediction
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Run the notebook or Streamlit app
-
-jupyter notebook
-
-
-or
-
-streamlit run app.py
+## 🧠 Future Work
+- Integrate deep learning models (e.g., LSTM for voice sequence analysis).
+- Collect larger datasets for more robust generalization.
+- Deploy model as a web app using Streamlit or Flask.
